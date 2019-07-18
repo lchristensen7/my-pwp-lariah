@@ -8,7 +8,7 @@
 		<div>
 			<h1>Diane Event Coordinating</h1>
 		</div>
-
+<img src="IMG_6534[951].JPG" alt="IMG_6534[951]">
 		<div>
 			<h2>Purpose,Audience, Goal</h2>
 		</div>
@@ -26,12 +26,26 @@
 			<h3>Persona</h3>
 		</div>
 		<div>
-			<h4>Profession:</h4>
-			<li>Event Coordinator; Events, social gatherings, rallies, banquets, and concerts</li>
-			<h5>Attitudes & Behaviors:</h5>
-			She is a social butterfly, stays busy, travels alot (event locations), advocate for musicians and artists,
-			creative,
+			Name: Diane Dubray
+			Age: 42
+			She is a Oglala Lakota Native from the Pine Ridge Reservation, she is the mother of three, and will make your event graceful as well as put the effort in which
+			she gives her family in all that she does.
 		</div>
-
+		<div>
+			<h4>Profession:</h4>
+			Event Coordinator;
+			<li>Events</li>
+			<li>Social Gatherings</li>
+			<li>Rallies</li>
+			<li>Banquets</li>
+			<li>Concerts</li>
+		</div>
+		<div>
+			<h5>Attitudes & Behaviors:</h5>
+			<li>She is a social butterfly, very outspoken, stays busy, travel alot (event locations), Advocate for musician and artists,
+				very creative, loves helping people, very optimistic, motivating, go-getter, and passionate.</li>
+			<li>Does not have any form of advertisement for business at the moment but does alot of business on her iPhone X</li>
+			<li>Not only will she be using the website to advertise her work but to also help show my web developing skills.</li>
+		</div>
 	</body>
 </html>
