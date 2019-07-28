@@ -13,34 +13,29 @@
 		<h4>Audience:</h4>
 			Targeted to people who are in need of help planning events, social gatherings, and concerts, etc.
 		<h5>Goal:</h5>
-			The goal is to give insight on what Diane does for business and will include contact info to help gain more clients.
+			The goal is to give insight on what Diane does for business and will include contact info to help gain more clients. And to help
+		show off my web developing skills.
 
 		<img id="irene" src="irene.jpg">
 
+		<h3>Persona:</h3>
 
-			<h6>Persona</h6>
-		<div>Name: Diane Dubray</div>
-		<div>Age: 42</div>
-			<div>She is an Oglala Lakota Native from the Pine Ridge Reservation, mother of three, and she will make your event graceful as well as put the effort in which
-				she gives her famiy in all that she does.</div>
-			<div>She is a social butterfly, very outspoken, stays busy, travel alot (event locations), Advocate for musician and artists,
-				very creative, loves helping people, very optimistic, motivating, go-getter, and passionate.</div>
-		<div>She coordinates events such as rallies, banquets, social gatherings, concerts, and etc.</div>
 
 		<b>Likes</b>
 		<ul>
-		<li>Expressing ideas that are out of the ordinary</li>
-		<li>Practicing meditation and being outdoors as a source to stay grounded</li>
-		<li>Staying up to date on social media</li>
+		<li>Inventing new arts</li>
+		<li>Traveling to new places</li>
+		<li>Knowing the best places to eat in town</li>
+			<li>Asking for opinions</li>
+			<li>Working with people who know what they're doing</li>
+			<li>Gatherings with other artists/people</li>
+			<li>Staying busy</li>
 		</ul>
 			<b>Dislikes</b>
 		<ul>
-		<li>Close minded people, small talk</li>
-		<li>Negative energies</li>
-		<li>Being held back</li>
+		<li>Not knowing where to go next</li>
+		<li>Being unorganized</li>
+		<li>Not having enough time to schedule anything.</li>
 		</ul>
-		<b>Frustrations</b>
-		Not enough clients as would like to have, want to create website in hopes to get more who are interested in working together as well as finding possible collaborators.
-			Also, would like a purpose for the website to show off my web developing skills.
 	</body>
 </html>
