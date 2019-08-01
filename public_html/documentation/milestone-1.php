@@ -16,11 +16,11 @@
 			The goal is to give insight on what Diane does for business and will include contact info to help gain more clients. And to help
 		show off my web developing skills.
 
-		<img id="irene" src="irene.jpg">
+		<img class="irc_mi" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c1807a5a-917f-4b5d-b143-03c2fe036538/d38vn7d-c21a11ef-efce-4c4e-9c46-1438aa4c5119.jpg/v1/fill/w_400,h_603,q_75,strp/the_guitar_guy_by_xlostfacex_d38vn7d-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAzIiwicGF0aCI6IlwvZlwvYzE4MDdhNWEtOTE3Zi00YjVkLWIxNDMtMDNjMmZlMDM2NTM4XC9kMzh2bjdkLWMyMWExMWVmLWVmY2UtNGM0ZS05YzQ2LTE0MzhhYTRjNTExOS5qcGciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.eKgTdPJx-qS0gQzZ1v3a_9I4jiwehGShhzI0Pco8kXM" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" alt="Image result for guitar guy" width="235" height="355" style="margin-top: 0px;" data-iml="1564418327538">
 
 		<h3>Persona:</h3>
-		Name: Rex Manning
-		Age: 31
+		Name: Demetri Strater
+		Age: 28
 		Work: Guitarist/Singer
 		Income: 30K
 		Relationship: Open
@@ -53,15 +53,15 @@
 		</ul>
 
 		<h5>Attitudes & Behaviors:</h5>
-		<p>Rex is a pretty chill dude, likes going with the flow but also has a decent routine and schedule he lives by. Likes to play around with sound on his guitar during
+		<p>Demetri is a pretty chill dude, likes going with the flow but also has a decent routine and schedule he lives by. Likes to play around with sound on his guitar during
 		his free time, likes to hit up social events to meet other artists and agents. Loves adventuring and sightseeing, Always asks for others input. Very trendy but also very laid back..
 		Has moments of being a dive but more doesn't care about much except his music.</p>
 		<h5>Frustrations & Needs</h5>
-		<p>Rex needs an event coordinator for his new album coming up, would like to set up a social event so that
+		<p>Demetri needs an event coordinator for his new album coming up, would like to set up a social event so that
 		other artists as well as agents can come along as well, maybe to collaborate. Not exactly sure how to schedule
 		or set up an event with a budget. Looking for a go-getter who gets a sense of his needs and wants to make the environemnt his style.</p>
 		<h6>Goal:</h6>
-		<p>Rex's goal is to make sure that all the his friends as well as their families get together as well as other, mutual friends,
+		<p>Demetri's goal is to make sure that all the his friends as well as their families get together as well as other, mutual friends,
 			and editors will be invited. Everything goes planned accordinaly, sense of style and is organized well.</p>
 		<h7>User Story:</h7>
 		<p>As a user wants to be able to see that this is the perfect coordinator for his party.</p>
