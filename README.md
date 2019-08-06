@@ -22,3 +22,13 @@ For titles/headings of sections use an h1, h2, h3... tag instead of  "b" tag.
 The following sections of your persona are not in a html tag: Name, Work, Income, and Relationship.
 
 Your grade for Milestone 1 is tier 2
+
+## Milestone 2a Feedback
+* Your git history looks good, though you may want to commit even a bit more frequently. 
+* Your written content is clear, concise, and indicates an amount of content that will do the job well.
+* The layout of your wireframes is effective and complete.
+* You may want to consider adding a footer to make the website feel a bit more complete.
+
+Overall, this is an excellent project.  Your wireframes and your content is clearly laid out and well established.  You should work on getting content for your site now, if you have not already done so.  Anytime you work with a third party rather than writing your own content, the content always takes much more time than you would think.  You have a very good start here, though, and you are well situated for sucess in the upcoming milestones.  Very nice work.
+
+The grade for this milestone is a Tier IV.
