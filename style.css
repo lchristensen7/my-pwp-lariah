@@ -20,6 +20,12 @@ h2 {
 	text-align: center;
 }
 
-p1 {
+#p1 {
+	text-align: left;
+	font-size: 60px;
+}
+
+#p2 {
+	text-align: right;
 	font-size: 60px;
 }
