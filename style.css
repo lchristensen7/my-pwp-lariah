@@ -1,5 +1,6 @@
 body {
 	background-color: rgb(220, 194, 197);
+
 }
 
 h1 {
@@ -22,10 +23,15 @@ h2 {
 
 #p1 {
 	text-align: left;
-	font-size: 60px;
+	font-size: 45px;
 }
 
 #p2 {
 	text-align: right;
-	font-size: 60px;
+	font-size: 45px;
+}
+
+#p3 {
+	text-align: left;
+	font-size: 45px;
 }
