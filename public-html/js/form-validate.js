@@ -32,6 +32,10 @@ $(document).ready(function(){
 				email: true,
 				required: true
 			},
+			subject: {
+				subject: true,
+				required: true
+			},
 			message: {
 				required: true,
 				maxlength: 2000

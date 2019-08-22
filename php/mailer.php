@@ -2,7 +2,7 @@
 /**
  * mailer.php
  *
- * This file handles secure mail transport using the Swiftmailer
+ * This file handles secure mail transport using the mailgun
  * library with Google reCAPTCHA integration.
  *
  * @author Rochelle Lewis <rlewis37@cnm.edu>
@@ -92,5 +92,5 @@ try {
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 
 } catch(Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . " " . $exception->getFile() . "</div>";
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "" . $exception->getFile() . "</div>";
 }
