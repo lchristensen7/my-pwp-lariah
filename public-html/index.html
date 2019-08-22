@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 		<title>Event Coordinating</title>
 
 	</head>
@@ -27,131 +29,78 @@
 
 		<h2>Galleria:</h2>
 
-		<div class="media position-relative">
-			<div class="media-body">
-				<h2 class="madkljflglkt-0">About Me:</h2>
-				<p>My name is Diane Dubray, I am from the Pine Ridge Reservation and I do my own business in Event Coordinating. I am a mother of three, I put all my passion into my work, my attitude is very open and enthusiastic. I am good with multitasking and handling all your needs.</p><br><br><br>
+		<form id="contact-form" action="../php/mailer.php" method="POST">
+			<div class="form-group">
+				<label for="contactDemoName">Name<span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"></span>
+						<i class="fa fa-user" aria-hidden="true"></i>
+				</div>
+					<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name"
 			</div>
-			<!--Section: Contact v.2-->
-			<div class="container-fluid contactUs" id="contactUs">
-				<section class="mb-4">
-
-					<!--Section heading-->
-					<h2 class="h1-responsive font-weight-bold text-center my-4" id="contact">Contact us</h2>
-					<!--Section description-->
-					<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. A clan member will reach out
-						shortly, unless we're in the middle of a raid or other various group activities.</p>
-
-					<div class="row">
-
-						<!--Grid column-->
-						<div class="col-md-9 mb-md-0 mb-5">
-							<form id="contact-form" name="contact-form" action="../php/mailer.php" method="POST">
-
-								<!--Grid row-->
-								<div class="row">
-
-									<!--Grid column-->
-									<div class="col-md-6">
-										<div class="md-form mb-0">
-											<input type="text" id="name" name="name" class="form-control">
-											<label for="name" class="">Your name</label>
-										</div>
-									</div>
-									<!--Grid column-->
-
-									<!--Grid column-->
-									<div class="col-md-6">
-										<div class="md-form mb-0">
-											<input type="text" id="email" name="email" class="form-control">
-											<label for="email" class="">Your email</label>
-										</div>
-									</div>
-									<!--Grid column-->
-
-								</div>
-								<!--Grid row-->
-
-								<!--Grid row-->
-								<div class="row">
-									<div class="col-md-12">
-										<div class="md-form mb-0">
-											<input type="text" id="subject" name="subject" class="form-control">
-											<label for="subject" class="">Subject</label>
-										</div>
-									</div>
-								</div>
-								<!--Grid row-->
-
-								<!--Grid row-->
-								<div class="row">
-
-									<!--Grid column-->
-									<div class="col-md-12">
-
-										<div class="md-form">
-											<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-											<label for="message">Your message</label>
-										</div>
-
-									</div>
-								</div>
-								<!--Grid row-->
-
-								<!-- reCAPTCHA -->
-								<div class="g-recaptcha" data-sitekey="6Lcm5rIUAAAAAO3Lo0ZVZvo1NV5N_GXKm60gmOSx"></div>
-
-								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-
-							</form>
-
-							<!--empty area for form error/success output-->
-							<div class="row">
-								<div class="col-xs-12">
-									<div id="output"></div>
-								</div>
-							</div>
-
-							<div class="status"></div>
-						</div>
-						<!--Grid column-->
-
-						<!--Grid column-->
-						<div class="col-md-3 text-center">
-							<ul class="list-unstyled mb-0">
-								<li><i class="fas fa-map-marker-alt fa-2x"></i>
-									<p>Albuquerque, NM 87121, USA</p>
-								</li>
-
-								<li><i class="fas fa-phone mt-4 fa-2x"></i>
-									<p>Don't forget to take a break every now and then, we need our clan mates in tip top condition!</p>
-								</li>
-							</ul>
-						</div>
-						<!--Grid column-->
-
-					</div>
-
-				</section>
 			</div>
-
-
-			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-			<!-- jQuery Form, Additional Methods, Validate -->
-			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-
-			<!-- Your JavaScript Form Validator -->
-			<script src="js/form-validate.js"></script>
-
-			<!-- Google reCAPTCHA -->
-			<script src='https://www.google.com/recaptcha/api.js'></script>
+			<div class="form-group">
+				<label for="contactDemoEmail">Email<span class="text-danger"></span></label>
+				<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"></span>
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</div>
+				<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+			</div>
+			</div>
+		<div class="form-group">
+			<label for="contactDemoSubject">Subject</label>
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"></span>
+					<i class="fa fa-pencil" aria-hidden="true"></i>
+				</div>
+				<input type="text" class="form-control" id="contactDemoSubject" name="contactDemoSubject" placeholder="Subject">
+			</div>
 		</div>
+			<div class="form-group">
+				<label for="contactDemoMessage">Message<span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"></span>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+					</div>
+					<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="Message"></textarea>
+				</div>
+			</div>
+
+
+			<!-- reCAPTCHA -->
+			<div class="g-recaptcha" data-sitekey="6Lcm5rIUAAAAAO3Lo0ZVZvo1NV5N_GXKm60gmOSx"></div>
+
+			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+		</form>
+
+		<!--empty area for form error/success output-->
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output-area"></div>
+			</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</body>
 </html>
