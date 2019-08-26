@@ -1,42 +1,48 @@
 body {
-	background-color: rgb(220, 194, 197);
+	background-color: rgb(235,217,200);
 }
 
 h1 {
-	padding: 200px;
-	border: 3px solid #white;
+	padding: 150px;
+	border: 3px solid #000000;
 	text-align: right;
 	font-size: 90px;
 	font-family: "Brandon Grotesque Medium";
-	color: white;
+	color: black;
 }
 
 h2 {
-	padding: 200px;
+	padding: 100px;
+	border: 3px solid black;
 	font-size: 85px;
-	font-family: "Palatino Linotype";
-	color: black;
+	font-family: "roboto, sans serif";
+	color: white;
 	text-align: center;
 }
-
+.background {
+	color: rgb(245,245, 245);
+}
 #p1 {
 	text-align: left;
-	font-size: 45px;
+	font-size: 60px;
+	font-family: "Canela Bold";
 }
 
 #p2 {
 	text-align: right;
-	font-size: 45px;
+	font-size: 60px;
+	font-family: "Canela Bold";
 }
 
 #p3 {
 	text-align: left;
-	font-size: 45px;
+	font-size: 60px;
+	font-family: "Canela Bold"
 }
 
 #p4 {
 	font-family: Roboto, Sans Serif;
 	font-size: xx-large;
 	text-align: center;
-	color: dimgray;
+	color: black;
 }
