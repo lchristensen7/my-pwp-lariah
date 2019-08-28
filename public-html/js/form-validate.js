@@ -33,7 +33,6 @@ $(document).ready(function(){
 				required: true
 			},
 			subject: {
-				subject: true,
 				required: true
 			},
 			message: {

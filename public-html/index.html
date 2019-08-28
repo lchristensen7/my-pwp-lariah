@@ -7,72 +7,137 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
 
-<!--		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
-<!--		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
-<!--		&lt;!&ndash; jQuery Form, Additional Methods, Validate &ndash;&gt;-->
-<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>-->
-<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>-->
-<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>-->
 
-<!--		&lt;!&ndash; Your JavaScript Form Validator &ndash;&gt;-->
-<!--		<script src="js/form-validate.js"></script>-->
-
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-				  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-		<script type="text/javascript"
-				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript"
-				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-				  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-				  crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-				  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-				  crossorigin="anonymous"></script>
+		<!-- import bootstrap css-->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript"
-				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
-		<!-- Form Validator File -->
+
+
+		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<title>Event Coordinating</title>
 	</head>
 	<body>
 
 		<section id="welcome">
-			<div class="container-fluid">
-		<h1>DIANES EVENT COORDINATING</h1>
-			</div>
+		<h1>Diane's Event Coordinating</h1>
 		</section>
 
+
 		<section id="quotes">
-			<div class="container my-auto py-5">
+			<div class="container">
 			<h2>Inspiration</h2>
 			</div>
-		<div class="container my-auto py-5">
-			<p id="p1">"The Key is falling in love with something, anything. If your heart's attached to it, then your mind will be attached to it." ~Vera Wang</p>
-			<p id="p2">"Some people look for a beautiful place. Others make a place beautiful.”  Hazrat Inavat Khan</p>
-			<p id="p3">“Whatever you do, do it well. Do it so well that when people see you do it they will want to come back and see you do it
+		<div class="container background">
+				<p id="p1">The Key is falling in love with something, anything. If your heart's attached to it, then your mind will be attached to it." ~Vera Wang
+				<p id="p2">Some people look for a beautiful place. Others make a place beautiful.”  Hazrat Inavat Khan
+			<p id="p1">“Whatever you do, do it well. Do it so well that when people see you do it they will want to come back and see you do it
 				again and they will want to bring others and show them how well you do what you do.”
 			-Walt Disney</p>
 			</div>
 		</section>
 
-		<section id="information">
-			<div class="container my-auto py-5">
-		<h2>About Me</h2>
+		<section id="about me">
+			<div class="container">
+				<h2>About Me</h2>
 			</div>
-			<div>
+			<div class="container d-flex background2">
+				<div class="row text-center">
+					<div class="col-md-3">
+					<img src="622L.jpg" class="z-depth-1 rounded-circle"
+						  alt="Responsive image">
+					</div>
+
+					<div class="col-md-6">
 		<p id="p4">My name is Diane Dubray, I am from the Pine Ridge Reservation. I am a mother of three children who I love to the mooon and back! People would say that I am a social butterfly, I am
 		very enthusiastic, optimistic, and I am a go getter. I am also considered a road runner, my heart belongs to highway... I love to travel and grab the opportunity at any chance to spin
-		my wheels and get to a new destination.</p>
+		my wheels and get to a new destination. I started coordinating in 2013 - my first event was the ball that took place at the Obama Inauguration. I've helped many
+		Native American artists...</p>
+</div>
+				</div>
 			</div>
 		</section>
 
 		<section id="photos">
-			<div class="container my-auto py-5">
+			<div class="container">
 		<h2>Galleria</h2>
+				<!-- Grid row -->
+				<div class="row">
+
+					<!-- Grid column -->
+					<div class="col-md-12 mb-3">
+
+						<img src="https://mdbootstrap.com/img/Photos/Slides/img%20(137).jpg" class="img-fluid z-depth-1" alt="Responsive image">
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row -->
+
+				<!-- Grid row -->
+				<div class="row">
+
+					<!-- Grid column -->
+					<div class="col-lg-4 col-md-12 mb-3">
+
+						<img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(115).jpg" class="img-fluid z-depth-1"
+							  alt="Responsive image">
+
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-lg-4 col-md-6 mb-3">
+
+						<img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(116).jpg" class="img-fluid z-depth-1"
+							  alt="Responsive image">
+
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-lg-4 col-md-6 mb-3">
+
+						<img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(117).jpg" class="img-fluid z-depth-1"
+							  alt="Responsive image">
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row -->
+
+				<!-- Grid row -->
+				<div class="row">
+
+					<!-- Grid column -->
+					<div class="col-md-6 mb-3">
+
+						<img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img(117).jpg" class="img-fluid z-depth-1"
+							  alt="Responsive image">
+
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-6 mb-3">
+
+						<img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img(129).jpg" class="img-fluid z-depth-1"
+							  alt="Responsive image">
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row -->
 			</div>
 		</section>
 
@@ -146,7 +211,7 @@
 						<!--Grid row-->
 
 					<div class="text-center text-md-left">
-						<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+						<button class="btn btn-primary" type="submit">Send</button>
 					</div>
 					<div class="status"></div>
 				<!--Grid column-->
@@ -170,23 +235,13 @@
 
 	</body>
 
-	<footer>
-		<div class="container-fluid  footer">
-		<div class="col-md-3">
-			<ul class="list-unstyled">
-				<li><i class="fas fa-map-marker-alt fa-2x"></i>
-					<p>Albuquerque, NM 87121</p>
-				</li>
 
-				<li><i class="fas fa-phone mt-4 fa-2x"></i>
-					<p>+ 01 785 592 0851</p>
-				</li>
+<footer>
+			<div class="footer-copyright text-center py-3">
+				<p>Albuquerque, NM 87121</p>
+				<p>+ 01 785 592 0851</p>
+				<p>dianedubray@yahoo.com</p>
+			</div>
+		</footer>
 
-				<li><i class="fas fa-envelope mt-4 fa-2x "></i>
-					<p>dianedubray@yahoo.com</p>
-				</li>
-			</ul>
-		</div>
-		</div>
-	</footer>
 </html>
