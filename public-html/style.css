@@ -26,19 +26,16 @@ h2 {
 
 #p1 {
 	text-align: left;
-	font-size: 60px;
 	font-family: "Canela Bold";
 }
 
 #p2 {
 	text-align: right;
-	font-size: 60px;
 	font-family: "Canela Bold";
 }
 
 #p3 {
 	text-align: left;
-	font-size: 60px;
 	font-family: "Canela Bold"
 }
 
@@ -47,4 +44,10 @@ h2 {
 	font-size: xx-large;
 	text-align: center;
 	color: black;
+}
+
+.footer {
+	background-color: rosybrown;
+	font-size: 60px;
+	font-family: Roboto, Sans Serif;
 }
