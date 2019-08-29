@@ -8,26 +8,22 @@ h1 {
 	text-align: center;
 	font-size: 90px;
 	font-family: "Brandon Grotesque Medium";
-	color: #340E2C;
+	color: darkturquoise;
 }
 
 
 h2 {
 	font-size: 70px;
 	font-family: "roboto, sans serif";
-	color: black;
+	color:  #46210f;
 	text-align: center;
-	padding: 5px;
 }
 
 .background {
 	background-color: rgb(245,245, 245);
-}
-
-.background2 {
-	background-color: rosybrown;
 	padding: 25px;
 }
+
 
 .center {
 	display: block;
@@ -35,7 +31,6 @@ h2 {
 	margin-right: auto;
 	width: 75%;
 }
-
 
 #p1,#p3 {
 	text-align: left;
@@ -53,6 +48,10 @@ h2 {
 	font-family: Roboto, Sans Serif;
 	font-size:large;
 	color: black;
+}
+
+.text {
+	color: #46210f;
 }
 
 .footer {
