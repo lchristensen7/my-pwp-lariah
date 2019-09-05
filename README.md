@@ -32,3 +32,11 @@ Your grade for Milestone 1 is tier 2
 Overall, this is an excellent project.  Your wireframes and your content is clearly laid out and well established.  You should work on getting content for your site now, if you have not already done so.  Anytime you work with a third party rather than writing your own content, the content always takes much more time than you would think.  You have a very good start here, though, and you are well situated for sucess in the upcoming milestones.  Very nice work.
 
 The grade for this milestone is a Tier IV.
+
+## Milestone 3 Feedback
+* Website is mobile responsive, however, there is a bit of side scroll on portrait mode that may need to be fixed. 
+* You may want to house your rename your images to better nameing convetions. Also, I suggest you might want to store them in their own directory so that it's a little more cleaner.
+* Glad to see your contact form working.
+
+## Final Project Grade
+Tier 3
